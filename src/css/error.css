@@ -1,0 +1,35 @@
+.errorh{
+    margin-top: 4%;
+    font-size: 500%;
+    color: gray;
+}
+.errorsubh{
+    margin-top: 1%;
+    font-size: 300%;
+    color: gray;
+}
+.errorsubmh{
+    margin-top: 2%;
+    font-size: 200%;
+    color: gray;
+    margin-bottom: 4%;
+}
+
+@media (max-width: 424px){
+    .errorh{
+        margin-top: 40%;
+        font-size: 400%;
+
+    }
+    .errorsubh{
+        margin-top: 5%;
+        font-size: 150%;
+        margin-bottom: 5%;
+    }
+    .errorsubmh{
+        font-size: 130%;
+        margin-top: 5%;
+        margin-bottom: 50%;
+    }
+    
+}

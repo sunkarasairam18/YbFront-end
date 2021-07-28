@@ -1,0 +1,71 @@
+.mainhead{    
+    background-image: url('../images/mainh.jpeg');
+    width: 100%;    
+    background-repeat: no-repeat;    
+}
+#title{
+    color: white;
+    font-family: Staatliches;
+    font-size: 7vh;    
+    padding-top: 25%;
+    margin-bottom: 2%;
+}
+#subtitle{
+    color: white;
+    font-family: Oswald;    
+    font-size: 3vh;     
+}
+
+#btns{
+    margin-top: 3%;
+    font-family: Oswald;
+    margin-bottom: 30%;
+    font-size: 3vh;     
+    color: white;
+    display: none;
+    background-color: rgb(133, 9, 228);
+}
+
+#btnb{
+    margin-top: 3%;
+    font-family: Oswald;
+    margin-bottom: 8%;
+    font-size: 3vh;     
+    color: white;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: rgb(149, 0, 255);
+}
+
+#btnb:hover{
+    background-color: rgb(116, 4, 202);
+    color: white;
+}
+
+@media (max-width: 430px){
+    .mainhead{
+        background-image: url('../images/mainhd.jpeg');
+        width: 100%;  
+        background-size: cover;
+    }
+    #title{
+        text-align: center;
+        font-size: 7vh; 
+        padding-top: 70%;
+    }
+    #subtitle{
+        font-family: Oswald;
+        font-size: 120%; 
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    #btns{
+        display: block;
+    }
+    #btnb{
+        display: none;
+    }
+    .nxtl{
+        display: none;
+    }
+}

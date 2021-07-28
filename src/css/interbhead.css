@@ -1,0 +1,27 @@
+#interbheadtitle{
+    color: rgb(68, 68, 221);
+    font-size: 270%;
+    padding-top: 5%;
+    font-weight: bold;
+}
+#interbheadsubtitle{
+    color: rgb(87, 87, 240);
+    font-size: 130%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    
+}
+
+@media (max-width: 424px){
+    #interbheadtitle{
+        font-size: 130%;
+        padding-top: 10%;
+    }
+    #interbheadsubtitle{
+        color: rgb(87, 87, 240);
+        font-size: 90%;
+        padding-top: 3%;
+        padding-bottom: 8%;
+        
+    }
+}

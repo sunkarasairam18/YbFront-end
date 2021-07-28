@@ -1,0 +1,29 @@
+.abobox{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
+}
+
+
+.abotitle{
+    font-size: 280%;
+    font-family: Oswald;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.abotext{
+    font-size: 120%;
+}
+@media (max-width: 424px){
+    .abobox{
+        width: 90%;
+    }
+    .abotext{
+        font-size: 100%;
+    }
+    .abotitle{
+        margin-bottom: 4%;
+
+    }
+    
+}

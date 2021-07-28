@@ -1,0 +1,53 @@
+.interfaq{
+    margin-bottom: 5%;
+}
+.interfaqh{
+    font-size: 270%;
+    font-weight: bold;
+    margin-top: 5%;
+    color: rgb(42, 42, 250);
+    margin-bottom: 3%;
+}
+
+.interfaqcd{
+    height: 25em;
+}
+.interfaqsubtitle{
+    font-size: 150%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-weight: bold;    
+}
+.interfaqcon{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 100%;
+
+}
+@media (min-width: 424px){
+    .interfaqcd:hover{
+        transition: 500ms;
+        color: white;
+        background-image: url('../images/interfaqwall5.jpeg');
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    }
+}
+@media (max-width: 423px){
+    .interfaqh{
+        font-size: 200%;
+        
+        margin-bottom: 8%;
+    }
+    .interfaqi{
+        margin-top: 0%;
+    }
+    .interfaqcd{
+        height: 40vh;
+    }
+    .interfaqcon{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 100%;
+    
+    }
+}

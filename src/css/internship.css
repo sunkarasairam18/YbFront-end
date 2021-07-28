@@ -1,0 +1,71 @@
+.intern{
+    margin-top: 3em;
+    width: 99%;   
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+.internhead{
+    margin-bottom: 1em;
+    color: gray;
+    font-family: Oswald;
+    font-size: 2.4em;
+    font-weight: 900;
+}
+.internsubhead{
+    font-family: Rubik;
+    font-size: 2.5em;
+    
+    margin-top: 2em;
+    font-weight: 600;
+}
+.internpara{
+    padding: 2em;
+    font-size: 1.2em;
+    font-family: Rubik;
+    
+}
+.bl{
+    margin: 0px;
+    padding: 0px;
+}
+.cl{
+    background-color: rgb(233, 222, 222);    
+    color: rgb(109, 106, 106);
+}
+@media (min-width: 424px){
+    .cl:hover{
+        color: white;
+        transition: 1s;
+        font-family: Rubik;
+    }
+    #ino:hover{
+        background-image: url('../images/ino.jpeg');
+        background-repeat: no-repeat;
+    }
+    #int:hover{
+        background-image: url('../images/int.jpeg');
+        background-repeat: no-repeat;
+    }
+    #inth:hover{
+        background-image: url('../images/inth.jpeg');
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 423px){
+    .intern{
+        width: 96%;
+    }
+    .internhead{
+        margin-bottom: 0.5em;
+    }
+    .internsubhead{
+        /* margin-top: 1em; */
+        font-size: 2em;
+    }
+    .internpara{
+        /* padding: 1em; */
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,14 @@
+.intermainhead{
+    background-image: url('../images/interview.jpeg');
+    width: 100%;    
+    background-repeat: no-repeat;    
+}
+
+@media (max-width: 430px){
+    .intermainhead{
+        background-image: url('../images/interview4.jpeg');
+        width: 100%;  
+        background-size: cover;
+    }
+}
+

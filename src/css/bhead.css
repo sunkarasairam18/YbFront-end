@@ -1,0 +1,64 @@
+.r{
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.first{
+    background-image: url('../images/life.jpeg');
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.second{
+    background-image: url('../images/why.jpeg');
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.three{
+    background-image: url('../images/career.jpeg');
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.title{
+    font-family: Oswald;
+    font-size: 190%;
+}
+.text{
+    font-family: Rubik;
+    font-size: 100%;
+}
+.hi{
+    display: none;
+}
+.vi{
+    display: block;
+}
+@media (max-width: 424px){
+    .title{
+        font-size: 150%;
+    }
+    .text{
+        font-size: 85%;
+    }
+    .hi{
+        display: block;
+    }
+    .vi{
+        display: none;
+    }
+    .first{
+        height: 50vh;
+    }
+    .second{
+        background-image: url('../images/whys.jpeg');
+        height: 50vh;
+    }
+    .three{
+        background-image: url('../images/career.jpeg');
+        height: 50vh;
+    }
+}

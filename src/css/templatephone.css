@@ -1,0 +1,80 @@
+@media (min-width: 424px){
+    #mainphoneobj{
+        display: none;
+    }
+}
+
+
+.no{
+    margin: 0px;
+    padding: 0px
+}
+
+.tempphonecd{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-size: cover;
+}
+.tempphonecdh{
+    margin-top: 200px;
+    font-size: 150%;
+    margin-left: 9%;
+    margin-bottom: 5%;
+    color: white;
+}
+.tempphonecdc{
+    margin-left: 9%;
+    margin-right: 3%;
+    font-size: 130%;
+    color: white;
+    font-family: PT Sans Narrow;
+
+}
+.tempphoneb{
+    margin-top: 5%;
+    font-size: 100%;
+    margin-left: 9%;
+    color: white;
+    margin-bottom: 10%;
+}
+
+#tempone{
+    background-image: url("../images/whychose.jpeg");
+    background-repeat: no-repeat;
+    
+}
+
+#temptwo{
+    background-image: url("../images/worklife.jpeg");
+    background-repeat: no-repeat;
+
+}
+
+
+#tempthree{
+    background-image: url("../images/ybw.png");
+    background-repeat: no-repeat;
+}
+
+#tempfour{
+    background-image: url("../images/op2p.jpeg");
+    background-repeat: no-repeat;
+}
+
+@media (min-width:424px){
+    #tempfour{
+        background-image: url("../images/ope.jpeg");
+        background-repeat: no-repeat;
+    }
+    
+}
+@media (max-width: 423px){
+    .tempphonecdh{
+        margin-top: 200px;
+        font-size: 200%;
+        margin-left: 9%;
+        margin-bottom: 5%;
+        color: white;
+    }
+}

@@ -1,0 +1,111 @@
+.z{
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 425px){
+    #mainobj{
+        display: none;
+    }
+}
+@media (min-width: 426px){
+    .fl{
+        display: flex;
+    }
+
+.testcd{
+    margin-top: 3em;
+    width: 25%;
+    height: 600px;
+    overflow: hidden;
+    
+}
+.testcdh{
+    margin-top: 420px;
+    font-size: 200%;
+    margin-left: 9%;
+    margin-bottom: 40%;
+    color: white;
+}
+.testcdc{
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+    font-size: 95%;
+    color: white;
+}
+.testb{
+    font-size: 180%;
+    margin-left: 9%;
+    color: white;
+}
+.testb:hover{
+    cursor: pointer;
+    color: rgb(204, 185, 185)
+}
+
+.testoneh-enter{
+    margin-top: 450px;
+    font-size: 200%;
+    margin-left: 9%;
+    margin-bottom: 40%;
+}
+.testoneh-enter-active{
+    margin-top: 250px;
+    margin-bottom: 5%;
+    transition: all 700ms;
+}
+.testoneh-enter-done{
+    margin-top: 250px;
+    margin-bottom: 5%;
+}
+.testoneh-exit{
+    margin-top: 250px;
+    margin-bottom: 5%;
+}
+.testoneh-exit-active{
+    margin-top: 450px;
+    margin-bottom: 40%;
+    transition: all 700ms;
+
+}
+.testoneh-exit-done{
+    margin-top: 450px;
+    margin-bottom: 40%;
+}
+#cdone{
+    background-image: url("../images/whychose.jpeg");
+    background-repeat: no-repeat;
+    
+}
+#cdone:hover{
+    -webkit-filter: grayscale(200%); 
+    filter: grayscale(200%);
+    
+}
+#cdtwo{
+    background-image: url("../images/worklife.jpeg");
+    background-repeat: no-repeat;
+
+}
+#cdtwo:hover{
+    -webkit-filter: grayscale(200%); 
+    filter: grayscale(200%);
+}
+
+#cdthree{
+    background-image: url("../images/oway.jpeg");
+    background-repeat: no-repeat;
+}
+#cdthree:hover{
+    -webkit-filter: grayscale(200%); 
+    filter: grayscale(200%);
+}
+#cdfour{
+    background-image: url("../images/ok.jpeg");
+    background-repeat: no-repeat;
+}
+#cdfour:hover{
+    -webkit-filter: grayscale(200%); 
+    filter: grayscale(200%);
+}
+}

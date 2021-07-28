@@ -1,0 +1,60 @@
+.interguideh{
+    font-size: 270%;
+    font-weight: bold;
+    margin-top: 5%;
+    color: rgb(42, 42, 250);
+    margin-bottom: 3%;
+}
+.interguiderow{
+    margin: 0px;
+    padding: 0px;
+}
+.interguidecd{
+    background-color: rgb(251, 242, 251);
+    height: 50vh;
+}
+.interguidei{
+    margin-top: 9%;
+    font-size: 350%;
+}
+.interguidesubtitle{
+    font-size: 150%;
+    margin-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.interguidecon{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 100%;
+
+}
+@media (min-width: 424px){
+    .interguidecd:hover{
+        transition: 500ms;
+        color: white;
+        background-image: url('../images/jeans.jpeg');
+    }
+   
+
+}
+@media (max-width: 423px){
+    .interguideh{
+        font-size: 200%;
+        
+        margin-bottom: 8%;
+    }
+    .interguidei{
+        margin-top: 0%;
+    }
+    .interguidecd{
+        height: 45vh;
+    }
+    .interguidecon{
+        padding-left: 0%;
+        padding-right: 0%;
+        font-size: 100%;
+    
+    }
+}

@@ -1,0 +1,19 @@
+.overviewbox{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.titleoverview{
+    font-size: 3em;
+    font-family: Oswald;
+}
+.textoverview{
+    margin-top: 2%;
+    font-size: 1.3em;
+    font-family: Rubik;
+}
+@media (max-width: 424px){
+    .textoverview{
+        margin-top: 3%;
+        font-size: 1em;
+    }
+}
